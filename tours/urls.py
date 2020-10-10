@@ -2,7 +2,7 @@ from django.urls import path
 from tours import views
 
 urlpatterns = [
-    path('', views.mainView),
-    path('tour/<int:id>/', views.tourView),
-    path('departure/<str:departure>/', views.departureView),
+    path('', views.main_view),
+    path('tour/<int:id>/', views.tour_view),
+    path('departure/<str:departure>/', views.departure_view),
 ]
